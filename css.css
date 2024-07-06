@@ -1,0 +1,188 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #12022B;
+
+}
+
+
+
+header {
+    display: flex; /* Usa flexbox para layout */
+    justify-content: space-between;
+    background-color: #12022B; /* Cor de fundo */
+    height: 5rem; /* Altura do cabeçalho */
+    padding: 10px; /* Espaçamento interno */
+
+    align-items: center; /* Alinha itens verticalmente */
+}
+
+
+
+
+.foto-logo{
+    width: 100px;
+    height: 80px;
+}
+
+.texto-logo {
+    display: flex;
+    flex-wrap: wrap;
+    color: aliceblue;
+    align-items: center;
+}
+
+.logo-texto{
+    font-size: 30px;
+    
+}
+
+/* Estilos para os links de navegação */
+.navegacao a {
+    font-size: 15px; /* Tamanho da fonte */
+    color: white; /* Cor do texto */
+    font-family: Arial, Helvetica, sans-serif; /* Fonte */
+    text-align: righ;
+
+}
+
+
+.navegacao a:hover {
+    color: #4ADEDD; /* Cor do texto ao passar o mouse */
+    transform: scale(0.8); /* Efeito de escala ao passar o mouse */
+}
+
+.navegacao {
+    display: flex; /* Usa flexbox para layout */
+    
+    gap: 30px; /* Espaço entre os itens */
+
+    font-weight: 550; /* Peso da fonte */
+    padding: 5px; /* Espaçamento interno */
+}
+
+
+
+
+section {
+    padding: 50px ;
+   
+    
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+main{
+    background-color: #12022B;
+    color: aliceblue;
+}
+.section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+.foto{
+    width: 25rem;
+    
+    border-radius: 50%;  
+    align-self: center;
+    padding: 10px;
+}
+
+.carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+}
+
+.menu__botoes__imagem {
+    width: 80%; /* Largura */
+}
+
+.menu__botoes {
+    scroll-snap-align: start;
+    font-family: Arial, Helvetica, sans-serif; /* Fonte */
+    margin-top: 2%; /* Espaçamento superior */
+    width: 20rem; /* Largura */
+    height: 25rem; /* Altura */
+    border: solid 5px rgb(255, 255, 255); /* Borda */
+    display: flex; /* Usa flexbox para layout */
+    text-align: center; /* Alinhamento central */
+    flex-direction: column; /* Itens são dispostos em coluna */
+    align-items: center; /* Alinha os itens centralmente */
+    justify-content: space-around; /* Distribui os itens ao redor */
+    background-color: #088395; /* Cor de fundo */
+    border-radius: 20px; /* Raio da borda */
+    margin-bottom: 30px; /* Margem inferior */
+    min-width: 300px; /* Largura mínima */
+    flex: 0 0 auto; /* Flex-grow, flex-shrink, flex-basis */
+    margin-right: 20px; /* Margem direita */
+    padding: 10px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento central */
+    scroll-snap-align: center; /* Alinhamento para rolagem */
+}
+
+.menu__botoes:hover {
+    filter: brightness(92%); /* Ajuste de brilho ao passar o mouse */
+    cursor: pointer; /* Cursor */
+    transform: scale(1.01); /* Efeito de escala ao passar o mouse */
+}
+
+.menu__botoes__forca {
+    width: 270px; /* Largura */
+}
+
+.icone{
+    width: 100%;
+    height: 60%
+
+}
+
+
+
+
+.portfolio-items {
+    display: flex;
+   
+   
+    
+    
+    
+}
+
+.portfolio-item {
+    justify-content: space-between;
+    padding: 10px;
+   
+    
+
+   
+}
+
+.port-img{
+    width: 20rem;
+    height: 20rem;
+}
+
+.foto2{
+    width: 30rem;
+    height: 30rem;
+}
+
